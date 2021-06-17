@@ -15,7 +15,7 @@ const TASK = (()=>{
 
 	let this_task = {};
 	let base_url = $('#txt_base_url').val();
-
+	let num = 1;
 
 	this_task.add_task = ()=>{
 		$.ajax({
